@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "BusInfo Documentation",
   "logo": {
-    "dark": "/logo/dark.svg",
+    "dark": "/logo/company.png",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
@@ -15,10 +15,14 @@
       "to": "#255795"
     }
   },
+  "topbarCtaButton": {
+    "name": "Login",
+    "url": "https://businfo.pt/auth"
+  },
   "topbarLinks": [
     {
-      "name": "Support2",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Support",
+      "url": "mailto:businfo85@gmail.com"
     }
   ],
   "tabs": [
@@ -29,14 +33,14 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Home",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "/"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "BusInfo Website",
+      "icon": "house",
+      "url": "https://businfo.pt"
     },
     {
       "name": "Blog",
