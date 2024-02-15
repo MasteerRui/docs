@@ -10,7 +10,7 @@
   },
   "servers": [
     {
-      "url": "http://sandbox.mintlify.com"
+      "url": "https://businfo.pt"
     }
   ],
   "security": [
@@ -19,7 +19,7 @@
     }
   ],
   "paths": {
-    "/plants": {
+    "/allbuses": {
       "get": {
         "description": "Returns all plants from the system that the user has access to",
         "parameters": [
