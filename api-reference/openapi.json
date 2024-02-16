@@ -10,7 +10,7 @@
   },
   "servers": [
     {
-      "url": "https://businfo.pt"
+      "url": "https://api.businfo.pt"
     }
   ],
   "security": [
@@ -19,7 +19,7 @@
     }
   ],
   "paths": {
-    "/allbuses": {
+    "/bus": {
       "get": {
         "description": "Returns all plants from the system that the user has access to",
         "parameters": [
