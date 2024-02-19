@@ -15,7 +15,7 @@
   ],
   "security": [
     {
-      "bearerAuth": []
+      "ApiKeyAuth": []
     }
   ],
   "paths": {
@@ -47,8 +47,8 @@
               }
             }
           },
-          "400": {
-            "description": "Unexpected error",
+          "401": {
+            "description": "API key required",
             "content": {
               "application/json": {
                 "schema": {
@@ -186,9 +186,11 @@
       }
     },
     "securitySchemes": {
-      "bearerAuth": {
-        "type": "http",
-        "scheme": "bearer"
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "in": "header",
+        "description": "To access the API you need to provide your API key in the header of your request. You can get an API key by signing up [here](https://www.businfo.pt/dashboard)",
+        "name": "X-Api-Key"
       }
     }
   }
