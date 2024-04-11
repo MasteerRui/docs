@@ -25,37 +25,20 @@
       "url": "mailto:businfo85@gmail.com"
     }
   ],
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+  "primaryTab": {
+    "name": "API Reference"
+  },
   "anchors": [
-    {
-      "name": "Home",
-      "icon": "book-open-cover",
-      "url": "/"
-    },
     {
       "name": "BusInfo Website",
       "icon": "house",
       "url": "https://businfo.pt"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
-    },
-    {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "pages": ["introduction"]
     },
     {
       "group": "API Documentation",
@@ -65,8 +48,8 @@
       "group": "Endpoint Examples",
       "pages": [
         "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/getid",
+        "api-reference/endpoint/getnearby"
       ]
     }
   ],
